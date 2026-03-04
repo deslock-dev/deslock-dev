@@ -7,25 +7,25 @@ I'm looking forward to hearing your opinion about my projects and I hope you lik
 ### Find me on these websites:
 
 <p align="left">
-<a href="https://twitter.com/deslock06" target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/socials/twitter.png" alt="" height="30" /></a>
-<a href="https://www.instagram.com/deslock06/" target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/socials/instagram.png" alt="" height="30" /></a>
-<a href="https://www.twitch.tv/deslock06" target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/socials/twitch.png" alt="" height="30" /></a>
-<a href="https://www.twitch.tv/jetlagsoff" target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/socials/twitch.png" alt="" height="30" /></a>
-<a href="https://deslock.fr" target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/socials/chrome.png" alt="" height="30" /></a>
+<a href="https://twitter.com/deslock06" target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/socials/twitter.png" alt="" height="30" /></a>
+<a href="https://www.instagram.com/deslock06/" target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/socials/instagram.png" alt="" height="30" /></a>
+<a href="https://www.twitch.tv/deslock06" target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/socials/twitch.png" alt="" height="30" /></a>
+<a href="https://www.twitch.tv/jetlagsoff" target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/socials/twitch.png" alt="" height="30" /></a>
+<a href="https://deslock.fr" target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/socials/chrome.png" alt="" height="30" /></a>
 </p>
 
 ### I'm a gamer too, so you might find me on:
 
-<a href="https://deslock.fr/discord" target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/icons/game/discord.png" height="30" /></a>
-<a href=" " target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/icons/game/epic.png" height="30" /></a>
-<a href=" " target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/icons/game/lol.png" height="30" /></a>
-<a href=" " target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/icons/game/battlenet.png" height="30" /></a>
-<a href=" " target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/icons/game/xbox.png" height="30" /></a>
-<a href=" " target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/icons/game/ps.png" height="30" /></a>
-<a href="" target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/icons/game/steam.png" height="30" /></a>
-<a href="" target="blank"><img align="center" src="https://github.com/deslock-dev/blob/main/img/icons/game/switch.png" height="30" /></a>
+<a href="https://deslock.fr/discord" target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/icons/game/discord.png" height="30" /></a>
+<a href=" " target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/icons/game/epic.png" height="30" /></a>
+<a href=" " target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/icons/game/lol.png" height="30" /></a>
+<a href=" " target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/icons/game/battlenet.png" height="30" /></a>
+<a href=" " target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/icons/game/xbox.png" height="30" /></a>
+<a href=" " target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/icons/game/ps.png" height="30" /></a>
+<a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/icons/game/steam.png" height="30" /></a>
+<a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/icons/game/switch.png" height="30" /></a>
 
-<img align="right" width="150" height="150" src="https://github.com/deslock-dev/blob/main/img/me/profile.jpg"></a>
+<img align="right" width="150" height="150" src="https://raw.githubusercontent.com/deslock-dev/deslock-dev/refs/heads/main/img/me/profile.jpg"></a>
 
 ### Some fun facts about me:
 
