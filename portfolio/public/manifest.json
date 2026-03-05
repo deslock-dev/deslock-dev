@@ -1,0 +1,69 @@
+{
+  "name": "Deslock - Unlock Your Next Adventure",
+  "short_name": "Deslock",
+  "description": "Entertainment hub for Video Games, Anime, Manga, Series, and Films.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a1a",
+  "theme_color": "#7c3aed",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/app/bio/deslock.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/app/bio/deslock.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["entertainment", "gaming", "anime", "manga", "films"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "shortcuts": [
+    {
+      "name": "Video Games",
+      "short_name": "Games",
+      "description": "Browse my video game collection",
+      "url": "/en/video-games",
+      "icons": [{ "src": "/app/bio/deslock.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Anime",
+      "short_name": "Anime",
+      "description": "Browse my anime collection",
+      "url": "/en/anime",
+      "icons": [{ "src": "/app/bio/deslock.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Manga",
+      "short_name": "Manga",
+      "description": "Browse my manga collection",
+      "url": "/en/manga",
+      "icons": [{ "src": "/app/bio/deslock.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Blog",
+      "short_name": "Blog",
+      "description": "Read my blog posts",
+      "url": "/en/blog",
+      "icons": [{ "src": "/app/bio/deslock.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Get in touch",
+      "url": "/en/contact",
+      "icons": [{ "src": "/app/bio/deslock.jpg", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+    "lang": [
+        {
+            "fr": {
+                "key": "fr",
+                "flag": "fr",
+                "label": "Français"
+            }
+        },
+        {
+            "en": {
+                "key": "en",
+                "flag": "gb",
+                "label": "English"
+            }
+        }
+    ],
+    "common": {
+        "home": "Home",
+        "collections": "Collections",
+        "about": "About",
+        "contact": "Contact",
+        "blog": "Blog",
+        "gallery": "Gallery"
+    },
+    "collections": {
+        "title": "Collections",
+        "headline": "My Entertainment Universe",
+        "description": "Everything I'm playing, watching, and reading — tracked and rated.",
+        "no_items": "No items found.",
+        "featured": "Featured",
+        "all_items": "All Items",
+        "item": "item",
+        "items": "items",
+        "rating": "Rating",
+        "note": "Note",
+        "filtered": "(filtered)",
+        "completed_label": "completed",
+        "across_categories": "across 5 categories",
+        "back_to_collections": "Back to Collections",
+        "sort": {
+            "default": "Default order",
+            "rating": "Highest rated",
+            "title": "A → Z"
+        },
+        "status": {
+            "playing": "Playing",
+            "watching": "Watching",
+            "reading": "Reading",
+            "completed": "Completed",
+            "backlog": "Backlog",
+            "plan_to_watch": "Plan to Watch",
+            "plan_to_read": "Plan to Read",
+            "dropped": "Dropped",
+            "watched": "Watched"
+        },
+        "category": {
+            "video_games": "Video Games",
+            "anime": "Anime",
+            "manga": "Manga",
+            "series": "Series",
+            "films": "Films"
+        },
+        "filters": {
+            "search": "Search",
+            "search_placeholder": "Search collections...",
+            "category": "Category",
+            "status": "Status",
+            "all": "All",
+            "reset": "Reset Filters"
+        },
+        "data": {
+            "video_games": [
+                {
+                    "title": "Elden Ring",
+                    "genre": ["Action RPG", "Open World", "Souls-like"],
+                    "status": "completed",
+                    "rating": 10,
+                    "platform": "PC",
+                    "note": "A masterpiece. The open world design combined with FromSoftware's combat is unmatched."
+                },
+                {
+                    "title": "Baldur's Gate 3",
+                    "genre": ["RPG", "Turn-Based", "Fantasy"],
+                    "status": "completed",
+                    "rating": 10,
+                    "platform": "PC",
+                    "note": "The gold standard for CRPGs. Larian outdid themselves with this one."
+                },
+                {
+                    "title": "The Legend of Zelda: Tears of the Kingdom",
+                    "genre": ["Action Adventure", "Open World", "Puzzle"],
+                    "status": "completed",
+                    "rating": 9,
+                    "platform": "Switch",
+                    "note": "The Ultrahand system is pure genius. Building machines to solve puzzles never gets old."
+                },
+                {
+                    "title": "Hollow Knight: Silksong",
+                    "genre": ["Metroidvania", "Action", "Indie"],
+                    "status": "playing",
+                    "rating": 9,
+                    "platform": "PC",
+                    "note": "The wait was worth it. Hornet feels incredible to control."
+                },
+                {
+                    "title": "Final Fantasy VII Rebirth",
+                    "genre": ["JRPG", "Action", "Fantasy"],
+                    "status": "completed",
+                    "rating": 9,
+                    "platform": "PS5",
+                    "note": "The open world and combat system are a massive upgrade."
+                },
+                {
+                    "title": "Persona 6",
+                    "genre": ["JRPG", "Social Sim", "Turn-Based"],
+                    "status": "playing",
+                    "rating": 9,
+                    "platform": "PS5",
+                    "note": "Atlus keeps delivering. The new setting and characters are instantly lovable."
+                },
+                {
+                    "title": "Celeste",
+                    "genre": ["Platformer", "Indie", "Precision"],
+                    "status": "completed",
+                    "rating": 9,
+                    "platform": "PC",
+                    "note": "Perfect difficulty curve and an emotional story about mental health."
+                },
+                {
+                    "title": "Ghost of Tsushima",
+                    "genre": ["Action Adventure", "Open World", "Samurai"],
+                    "status": "backlog",
+                    "rating": null,
+                    "platform": "PC",
+                    "note": "Heard amazing things about the combat. Next on my list."
+                }
+            ],
+            "anime": [
+                {
+                    "title": "Frieren: Beyond Journey's End",
+                    "genre": ["Fantasy", "Adventure", "Slice of Life"],
+                    "status": "completed",
+                    "rating": 10,
+                    "episodes": 28,
+                    "note": "A beautiful meditation on time, memory, and what it means to understand others."
+                },
+                {
+                    "title": "Attack on Titan",
+                    "genre": ["Action", "Dark Fantasy", "Thriller"],
+                    "status": "completed",
+                    "rating": 10,
+                    "episodes": 87,
+                    "note": "One of the greatest stories ever told in anime. Unparalleled twists."
+                },
+                {
+                    "title": "Jujutsu Kaisen",
+                    "genre": ["Shonen", "Action", "Supernatural"],
+                    "status": "completed",
+                    "rating": 9,
+                    "episodes": 47,
+                    "note": "Incredible fight choreography with some of the best villains in modern shonen."
+                },
+                {
+                    "title": "Vinland Saga",
+                    "genre": ["Historical", "Action", "Drama"],
+                    "status": "completed",
+                    "rating": 10,
+                    "episodes": 48,
+                    "note": "Thorfinn's character development is peak storytelling."
+                },
+                {
+                    "title": "Dandadan",
+                    "genre": ["Shonen", "Supernatural", "Comedy"],
+                    "status": "watching",
+                    "rating": 9,
+                    "episodes": 12,
+                    "note": "The animation quality by Science SARU is insane."
+                },
+                {
+                    "title": "Solo Leveling",
+                    "genre": ["Action", "Fantasy", "Power Fantasy"],
+                    "status": "watching",
+                    "rating": 8,
+                    "episodes": 24,
+                    "note": "The power progression and fight animations are incredibly satisfying."
+                },
+                {
+                    "title": "Spy x Family",
+                    "genre": ["Comedy", "Action", "Slice of Life"],
+                    "status": "completed",
+                    "rating": 8,
+                    "episodes": 37,
+                    "note": "Wholesome and hilarious. Anya is a national treasure."
+                },
+                {
+                    "title": "Chainsaw Man",
+                    "genre": ["Action", "Horror", "Dark Comedy"],
+                    "status": "plan_to_watch",
+                    "rating": null,
+                    "episodes": null,
+                    "note": "Love the manga, can't wait for Season 2."
+                }
+            ],
+            "manga": [
+                {
+                    "title": "One Piece",
+                    "genre": ["Shonen", "Adventure", "Fantasy"],
+                    "status": "reading",
+                    "rating": 10,
+                    "chapters": 1130,
+                    "note": "The GOAT. Oda's world-building is unmatched in all of fiction."
+                },
+                {
+                    "title": "Berserk",
+                    "genre": ["Dark Fantasy", "Action", "Seinen"],
+                    "status": "reading",
+                    "rating": 10,
+                    "chapters": 380,
+                    "note": "Miura created a world of unparalleled darkness and beauty."
+                },
+                {
+                    "title": "Vagabond",
+                    "genre": ["Historical", "Action", "Seinen"],
+                    "status": "completed",
+                    "rating": 10,
+                    "chapters": 327,
+                    "note": "Inoue's art transcends the manga medium."
+                },
+                {
+                    "title": "Chainsaw Man",
+                    "genre": ["Shonen", "Horror", "Dark Comedy"],
+                    "status": "reading",
+                    "rating": 9,
+                    "chapters": 185,
+                    "note": "Fujimoto is a genius. Part 2 keeps getting wilder."
+                },
+                {
+                    "title": "Jujutsu Kaisen",
+                    "genre": ["Shonen", "Action", "Supernatural"],
+                    "status": "completed",
+                    "rating": 9,
+                    "chapters": 271,
+                    "note": "Gege delivered an incredible ride."
+                },
+                {
+                    "title": "Blue Lock",
+                    "genre": ["Sports", "Shonen", "Psychological"],
+                    "status": "reading",
+                    "rating": 8,
+                    "chapters": 290,
+                    "note": "Football meets battle manga. The ego concept is brilliant."
+                }
+            ],
+            "series": [
+                {
+                    "title": "Breaking Bad",
+                    "genre": ["Crime", "Drama", "Thriller"],
+                    "status": "completed",
+                    "rating": 10,
+                    "seasons": 5,
+                    "note": "The greatest character arc in TV history."
+                },
+                {
+                    "title": "Arcane",
+                    "genre": ["Animation", "Action", "Drama"],
+                    "status": "completed",
+                    "rating": 10,
+                    "seasons": 2,
+                    "note": "Proof that video game adaptations can be art."
+                },
+                {
+                    "title": "The Last of Us",
+                    "genre": ["Drama", "Horror", "Post-Apocalyptic"],
+                    "status": "watching",
+                    "rating": 9,
+                    "seasons": 2,
+                    "note": "One of the best video game adaptations ever."
+                },
+                {
+                    "title": "Stranger Things",
+                    "genre": ["Sci-Fi", "Horror", "Drama"],
+                    "status": "completed",
+                    "rating": 8,
+                    "seasons": 4,
+                    "note": "Peak nostalgia with great characters."
+                },
+                {
+                    "title": "House of the Dragon",
+                    "genre": ["Fantasy", "Drama", "Political"],
+                    "status": "watching",
+                    "rating": 8,
+                    "seasons": 2,
+                    "note": "Amazing political drama. Great performances all around."
+                },
+                {
+                    "title": "Severance",
+                    "genre": ["Sci-Fi", "Thriller", "Mystery"],
+                    "status": "plan_to_watch",
+                    "rating": null,
+                    "seasons": 2,
+                    "note": "Everyone keeps recommending this."
+                }
+            ],
+            "films": [
+                {
+                    "title": "Interstellar",
+                    "genre": ["Sci-Fi", "Drama", "Adventure"],
+                    "status": "watched",
+                    "rating": 10,
+                    "note": "Nolan's magnum opus. Cinema at its finest."
+                },
+                {
+                    "title": "Your Name (Kimi no Na wa)",
+                    "genre": ["Animation", "Romance", "Fantasy"],
+                    "status": "watched",
+                    "rating": 10,
+                    "note": "Shinkai created something truly magical."
+                },
+                {
+                    "title": "Spirited Away",
+                    "genre": ["Animation", "Fantasy", "Adventure"],
+                    "status": "watched",
+                    "rating": 10,
+                    "note": "Miyazaki's masterpiece. Every frame is a painting."
+                },
+                {
+                    "title": "The Dark Knight",
+                    "genre": ["Action", "Crime", "Thriller"],
+                    "status": "watched",
+                    "rating": 10,
+                    "note": "Heath Ledger's Joker transcends the superhero genre."
+                },
+                {
+                    "title": "Dune: Part Two",
+                    "genre": ["Sci-Fi", "Adventure", "Drama"],
+                    "status": "watched",
+                    "rating": 9,
+                    "note": "Villeneuve delivered the definitive Dune adaptation."
+                },
+                {
+                    "title": "Spider-Man: Across the Spider-Verse",
+                    "genre": ["Animation", "Action", "Adventure"],
+                    "status": "watched",
+                    "rating": 9,
+                    "note": "The art style is revolutionary."
+                },
+                {
+                    "title": "Oppenheimer",
+                    "genre": ["Biography", "Drama", "Historical"],
+                    "status": "watched",
+                    "rating": 9,
+                    "note": "Cillian Murphy's performance is haunting."
+                }
+            ]
+        }
+    },
+    "blog": {
+        "description": "Thoughts on games, anime, and everything in between",
+        "noPosts": "No posts yet. Check back soon!",
+        "featured": "Featured Posts",
+        "allPosts": "All Posts",
+        "backToBlog": "Back to Blog",
+        "lastUpdated": "Last updated"
+    },
+    "gallery": {
+        "description": "Screenshots, fan art, and memorable moments",
+        "noPosts": "No media yet. Check back soon!"
+    },
+    "about": {
+        "title": "About Deslock",
+        "content": {
+            "personnal_info": {
+                "myname": "Deslock",
+                "mydesc": "Unlock Your Next Adventure"
+            },
+            "bio": {
+                "title": "Who is Deslock?",
+                "items": [
+                    "A passionate explorer of digital and animated worlds. From the vast lands of Elden Ring to the emotional depths of Frieren, I live and breathe entertainment.",
+                    "I believe every great game, anime, manga, series, or film has the power to change how we see the world. This is my space to track, rate, and share the stories that have shaped me.",
+                    "When I'm not diving into a new adventure, you'll probably find me debating power systems in shonen manga or theorizing about the next big plot twist."
+                ]
+            },
+            "favorite_genres": {
+                "title": "Favorite Genres",
+                "items": [
+                    "Action RPG",
+                    "Souls-like",
+                    "JRPG",
+                    "Metroidvania",
+                    "Shonen",
+                    "Seinen",
+                    "Dark Fantasy",
+                    "Sci-Fi",
+                    "Thriller",
+                    "Slice of Life",
+                    "Psychological",
+                    "Post-Apocalyptic"
+                ]
+            },
+            "currently": {
+                "title": "Currently Experiencing",
+                "items": [
+                    {
+                        "type": "playing",
+                        "icon": "🎮",
+                        "title": "Hollow Knight: Silksong",
+                        "detail": "Exploring the new kingdom"
+                    },
+                    {
+                        "type": "watching",
+                        "icon": "🎬",
+                        "title": "Dandadan",
+                        "detail": "Catching up on latest episodes"
+                    },
+                    {
+                        "type": "reading",
+                        "icon": "📖",
+                        "title": "One Piece",
+                        "detail": "Chapter 1130+"
+                    },
+                    {
+                        "type": "watching",
+                        "icon": "📺",
+                        "title": "The Last of Us S2",
+                        "detail": "Weekly watch"
+                    }
+                ]
+            },
+            "stats": {
+                "title": "Entertainment Stats",
+                "items": [
+                    {
+                        "label": "Games Completed",
+                        "value": "150+",
+                        "icon": "🎮"
+                    },
+                    {
+                        "label": "Anime Watched",
+                        "value": "200+",
+                        "icon": "🎬"
+                    },
+                    {
+                        "label": "Manga Read",
+                        "value": "80+",
+                        "icon": "📖"
+                    },
+                    {
+                        "label": "Series Binged",
+                        "value": "50+",
+                        "icon": "📺"
+                    },
+                    {
+                        "label": "Films Seen",
+                        "value": "300+",
+                        "icon": "🎥"
+                    }
+                ]
+            },
+            "top_five": {
+                "title": "Top 5 All-Time",
+                "categories": [
+                    {
+                        "category": "Video Games",
+                        "icon": "🎮",
+                        "items": ["Elden Ring", "Baldur's Gate 3", "Celeste", "Final Fantasy VII Rebirth", "Zelda: TotK"]
+                    },
+                    {
+                        "category": "Anime",
+                        "icon": "🎬",
+                        "items": ["Frieren", "Attack on Titan", "Vinland Saga", "Jujutsu Kaisen", "Spy x Family"]
+                    },
+                    {
+                        "category": "Manga",
+                        "icon": "📖",
+                        "items": ["One Piece", "Berserk", "Vagabond", "Chainsaw Man", "Jujutsu Kaisen"]
+                    },
+                    {
+                        "category": "Series",
+                        "icon": "📺",
+                        "items": ["Breaking Bad", "Arcane", "The Last of Us", "Stranger Things", "House of the Dragon"]
+                    },
+                    {
+                        "category": "Films",
+                        "icon": "🎥",
+                        "items": ["Interstellar", "Your Name", "Spirited Away", "The Dark Knight", "Dune: Part Two"]
+                    }
+                ]
+            },
+            "platforms": {
+                "title": "Gaming Platforms",
+                "items": ["PC (Main)", "PlayStation 5", "Nintendo Switch", "Steam Deck"]
+            }
+        }
+    },
+    "contact": {
+        "title": "Connect with Deslock",
+        "items": [
+            {
+                "icon": "discord",
+                "href": "https://discord.gg/deslock",
+                "label": "Discord",
+                "value": "deslock"
+            },
+            {
+                "icon": "github",
+                "href": "https://github.com/deslock-dev",
+                "label": "GitHub",
+                "value": "deslock-dev"
+            },
+            {
+                "icon": "x",
+                "href": "https://x.com/deslock",
+                "label": "X / Twitter",
+                "value": "@deslock"
+            },
+            {
+                "icon": "mail",
+                "href": "mailto:contact@deslock.dev",
+                "label": "Email",
+                "value": "contact@deslock.dev"
+            },
+            {
+                "icon": "steam",
+                "href": "https://steamcommunity.com/id/deslock",
+                "label": "Steam",
+                "value": "Deslock"
+            },
+            {
+                "icon": "myanimelist",
+                "href": "https://myanimelist.net/profile/deslock",
+                "label": "MyAnimeList",
+                "value": "Deslock"
+            }
+        ]
+    }
+}
