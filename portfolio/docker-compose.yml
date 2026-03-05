@@ -1,0 +1,110 @@
+# File Name: docker-compose.yml
+# Author: Deslock
+# Creation Date: 2024
+# Description: Docker compose file for the Deslock project
+# Copyright (c) 2024 Tux Inc.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the 'Software'), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+
+name: deslock-dev
+
+services:
+  # PostgreSQL Database
+  database:
+    image: postgres:17
+    container_name: deslock-portfolio-database-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    # Required when running on platform other than amd64, like Apple M1/M2:
+    platform: linux/amd64
+    volumes:
+      - deslock-portfolio-db:/var/lib/postgresql/data
+    env_file:
+      - ./.env/.env.database.template
+    networks:
+      - deslock-network
+    healthcheck:
+      test: [ "CMD", "pg_isready", "--host=localhost", "--username=${POSTGRES_USER}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  cache:
+    image: redis:8
+    container_name: deslock-portfolio-redis-cache
+    restart: unless-stopped
+    ports:
+        - 6379:6379
+    depends_on:
+        - database
+    networks:
+        - deslock-network
+    healthcheck:
+      test: [ "CMD-SHELL", "[ $$(redis-cli ping) = 'PONG' ]" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Directus Backend
+  backend:
+    container_name: deslock-portfolio-backend
+    image: directus/directus:11.10.2
+    restart: unless-stopped
+    depends_on:
+      database:
+        condition: service_healthy
+      cache:
+        condition: service_healthy
+    ports:
+        - 8055:8055
+    volumes:
+        - ./backend/uploads:/directus/uploads
+        - ./backend/extensions:/directus/extensions
+    env_file:
+        - ./.env/.env.directus.template
+    networks:
+        - deslock-network
+
+  # Next Frontend
+  frontend:
+    container_name: deslock-portfolio-frontend
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    restart: unless-stopped
+    working_dir: /usr/src/app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/.next
+    env_file:
+      - ./.env/.env.frontend.template
+    networks:
+      - deslock-network
+
+networks:
+  deslock-network:
+    driver: bridge
+
+volumes:
+    deslock-portfolio-db:
